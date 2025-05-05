@@ -7,7 +7,7 @@ use Google_Service_Sheets;
 class GoogleSheets
 {
 
-    private $sheet_id    = '1JrdtufiBEkZHzK-SrWDiGo7jx-hoR8ktHwjO4joLTyI';
+    private $sheet_id    = '1JrdtufiBEkZHzK-SrWDiGo7jx-hoR8ktHwjO4joLTyI'; //Put your original credentials
     private $sheet_range = 'Sheet1!A:D';
 
     public function get_tire_data($registration, $postcode)
