@@ -1,0 +1,17 @@
+# Ignore the vendor directory (composer dependencies)
+vendor/
+
+# Ignore the credentials.json file (Google API credentials)
+credentials.json
+
+# Ignore system files on macOS
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore other configuration files (optional)
+*.env

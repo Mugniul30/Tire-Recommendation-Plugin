@@ -1,0 +1,21 @@
+{
+    "name": "mugniul/tire-recommendation-plugin",
+    "description": "Fetch tire recommendations from Google Sheets and filter WooCommerce products based on Registration and Postcode.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Mugniul30",
+            "email": "mugniulafif@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "google/apiclient": "^2.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "TRS\\": "includes/"
+        }
+    }
+}
